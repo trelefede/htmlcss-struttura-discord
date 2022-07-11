@@ -17,3 +17,57 @@ body {
 
 
 /*** content ***/
+
+.contenitore {
+    display: flex;
+}
+
+
+/* header */
+
+/* menu navigazione */
+
+.contenitore-nav {
+    display: flex;
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+}
+
+
+nav {
+    height: 20px;
+}
+
+.logo {
+    flex-basis: 100px;
+    margin-left: 100px;
+}
+
+.link-vari {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.accedi {
+    flex-basis: 100px;
+    margin-right: 100px;
+}
+
+/* contenuto intestazione */
+
+.contenitore-intestazione {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+    padding: 60px 200px 60px 200px;
+}
+
+.bottoni-intestazione {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

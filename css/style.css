@@ -20,6 +20,7 @@ body {
 
 .contenitore {
     display: flex;
+    flex-direction: column;
 }
 
 
@@ -29,7 +30,7 @@ body {
 
 .contenitore-nav {
     display: flex;
-    background-color: black;
+    background-color: #3161e0;
     color: white;
     border: 1px solid red;
 }
@@ -60,7 +61,7 @@ nav {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: black;
+    background-color: #3161e0;
     color: white;
     border: 1px solid red;
     padding: 60px 200px 60px 200px;
@@ -71,3 +72,39 @@ nav {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+/* fine header */
+
+
+
+/* main */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* primo contenuto */
+.contenuto-base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.contenuto-diverso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+
+
+
+
+/* end main */

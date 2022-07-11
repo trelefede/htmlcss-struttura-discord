@@ -84,7 +84,7 @@ main {
     flex-direction: column;
 }
 
-/* primo contenuto */
+/* contenuto base */
 .contenuto-base {
     display: flex;
     justify-content: center;
@@ -92,7 +92,30 @@ main {
     height: 350px;
     justify-content: center;
     border: 1px solid red;
+    margin: 0 100px;
 }
+
+.contenitore-contenuto1 {
+    display: flex;
+    text-align: center;
+}
+
+#img-content {
+    margin: 0 20px 0 130px;
+}
+
+.didascalia-verticale {
+    margin: 0 100px 0 30px;
+}
+
+
+
+
+
+
+
+
+
 
 .contenuto-diverso {
     display: flex;
